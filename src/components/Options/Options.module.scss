@@ -1,0 +1,31 @@
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &.good {
+    background-color: lightgreen;
+
+    &:active {
+      background-color: blue;
+    }
+  }
+
+  &.neutral {
+    background-color: lightgray;
+
+    &:active {
+      background-color: blue;
+    }
+  }
+
+  &.bad {
+    background-color: lightcoral;
+
+    &:active {
+      background-color: blue;
+    }
+  }
+}

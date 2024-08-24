@@ -1,0 +1,26 @@
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.good {
+  background-color: lightgreen;
+}
+
+.neutral {
+  background-color: lightgray;
+}
+
+.bad {
+  background-color: lightcoral;
+}
+
+.reset {
+  background-color: #ccc;
+  &:hover {
+    background-color: #999;
+  }
+}
